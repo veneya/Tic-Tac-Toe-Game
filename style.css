@@ -176,8 +176,8 @@ body {
 
     .cell {
         font-size: 1.5rem;
-        height: 5rem;
-        width: 5rem;
+        height: 7rem;
+        width: 7rem;
     }
 
     #reset {
@@ -192,6 +192,7 @@ body {
     #board {
         width: 90%;
         height: auto;
+        gap:20px
     }
 
     #third_half {
