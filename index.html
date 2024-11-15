@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="entire_screen">
+        <div id="first_half">
+            <div id="details">
+                <h1><u>RULES</u>:</h1>
+                <ul>
+                    <li><h2>Players:</h2><p>Two players take turns.</p></li>
+                    <br>
+                    <li><h2>Game Setup:</h2><p>Played on a 3x3 grid with 9 squares.</p></li>
+                    <br>
+                    <li><h2>How to Play:</h2><p>Player 1 (X) starts, then players alternate turns.</p></li>
+                    <br>
+                    <li><h2>Winning:</h2><p>Get three marks in a row (horizontal, vertical, or diagonal).</p></li>
+                    <br>
+                    <li><h2>Draw:</h2><p>If no winner and grid is full, it's a draw.</p></li>
+                    <br>
+                    <li><h2>Reset:</h2><p>Reset the board after each game.</p></li>
+                </ul>
+
+            </div>
+        </div>
+        <div id="container">
+            <h1>Tic Tac Toe</h1>
+            <div id="board">
+                <div id="cell1" class="cell"></div>
+                <div id="cell2" class="cell"></div>
+                <div id="cell3" class="cell"></div>
+                <div id="cell4" class="cell"></div>
+                <div id="cell5" class="cell"></div>
+                <div id="cell6" class="cell"></div>
+                <div id="cell7" class="cell"></div>
+                <div id="cell8" class="cell"></div>
+                <div id="cell9" class="cell"></div>
+            </div>
+            <div id="message"></div>
+            <button id="reset">Reset Game</button>
+        </div>
+        <div id="third_half">
+            <div id="player-names-section">
+                <h3>Enter Player Names</h3>
+                <input type="text" id="player1-name" placeholder="Enter Player 1 Name (X)" />
+                <input type="text" id="player2-name" placeholder="Enter Player 2 Name (O)" />
+                <button id="start-game">Start Game</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
